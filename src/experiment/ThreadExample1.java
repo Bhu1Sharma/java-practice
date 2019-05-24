@@ -1,5 +1,5 @@
 package experiment;
-
+import java.util.Date;
 public class ThreadExample1 {
 	
 	public static void main(String args[]) {
@@ -18,6 +18,7 @@ public class ThreadExample1 {
 			}
 		}).start();
 		
+		System.out.println("date: "+new Date());
 	}
 	
 }
