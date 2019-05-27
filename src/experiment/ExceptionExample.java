@@ -39,8 +39,7 @@ class IO{
 			in = new InputStreamReader(System.in);
 			buffer = new BufferedReader(in);
 			short number = Short.parseShort(buffer.readLine());
-			in.close();
-			buffer.close();
+
 			return number;
 		}
 	
@@ -62,6 +61,11 @@ public class ExceptionExample{
 	public static void main(String args[]) {
 		
 			try {
+				System.out.println(IO.readShort());
+				System.out.println(IO.readShort());
+				System.out.println(IO.readShort());
+				System.out.println(IO.readShort());
+				System.out.println(IO.readShort());
 				System.out.println(IO.readShort());
 			} catch (IOException e) {
 				e.printStackTrace();

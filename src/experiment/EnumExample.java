@@ -1,7 +1,5 @@
 package experiment;
 
-import experiment.Console;
-
 public class EnumExample {
 
 	static enum Color {
@@ -15,6 +13,7 @@ public class EnumExample {
 	
 	public static void main(String args[]) {
 		Color c[]=Color.values();
+		Console.log("c=====>",c);
 //	
 //		Color colors[] = Color.values();
 //		System.out.println("data in enum => ");
@@ -35,7 +34,7 @@ public class EnumExample {
 //		
 //		c.printColor(Color.RED);
 		
-		Console.log(c);
+//		Console.log(c);
 	}
 	
 }
