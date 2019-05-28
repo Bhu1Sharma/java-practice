@@ -65,7 +65,7 @@ void eatMemory() {
 		 size++;
 	 }
 
-	 Anonymous a = new Anonymous(this);
+	 new Anonymous(this);
 	 return size+" "+sizes[size-1];
  }
 	public static void main(String args[]) {

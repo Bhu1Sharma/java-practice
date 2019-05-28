@@ -48,7 +48,7 @@ public class Serialization {
 		gd.playerName = "Bhuwan Sharma";
 		gd.level = 100;
 		Serialization ser = new Serialization();
-		ser.serialize(gd,fileName);
+//		ser.serialize(gd,fileName);
 		
 		GameData restored = ser.deserialize(fileName);
 		
